@@ -15,7 +15,6 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0;
-  padding: 1rem;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
 }
@@ -27,11 +26,10 @@ ol li {
   align-items: center;
   border-radius: 6px;
   list-style: none;
-  justify-content: space-between;
 }
 
 .big {
-  width: 70%;
+  width: 65%;
   padding-top: 1rem;
 }
 
@@ -39,6 +37,9 @@ h2 {
   font-family: Oswald, sans-serif;
   color: #6f00e7;
   font-size: 2rem;
+  font-weight: 900;
+  padding: 1rem 4rem;
+  margin: 0;
 }
 
 .cart {
@@ -55,4 +56,14 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+p {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.heart {
+  padding-left: 10rem;
+  padding-right: .3rem;
 }
